@@ -19,6 +19,10 @@
     color: #757575;
 }
 
+.align-center{
+    text-align: center;
+}
+
 .secondary-background{
     background-color: #FFF8F3;
 }
@@ -163,4 +167,88 @@ main section{
 
 .skill-description{
     padding: 104px 33px 30px;
+}
+    
+/* resume-summary style */
+.resume-summary{
+    margin-top: 50px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 77px;
+}
+
+.experience{
+    min-height: 200px;
+}
+
+.resume-columns-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.exp-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.exp-description{
+    font-size: 16px;
+}
+
+.exp-description, .exp-subtitle {
+    color: 757575;
+}
+
+.resume-submit{
+    margin-top: 50px;
+}
+
+/* footer section */
+
+
+.connect-form{
+    margin: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.connect-description{
+    font-size: 16px;
+}
+
+/* .icons{
+    display: flex;
+} */
+
+.icon{
+    margin-right: 20px;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    display: block;
+    font-size: 16px;
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
